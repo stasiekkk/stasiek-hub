@@ -1,3 +1,3 @@
 local ids = {
-  ButtonBobuxSimulator = 11919433298
+  11919433298 = ButtonBobuxSimulator
 }
