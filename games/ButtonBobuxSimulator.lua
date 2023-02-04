@@ -22,6 +22,6 @@ GamesTab:AddDropdown({
 	Name = "Teleports",
 	Options = l,
 	Callback = function(Value)
-		a.Character.HumanoidRootPart.CFrame = CFrame.new(tps[Value])
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(tps[Value])
 	end
 })
