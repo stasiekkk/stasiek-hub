@@ -18,6 +18,8 @@ for key, value in pairs(tps) do
     table.insert(l, key)
 end
 
+print(type(l))
+
 Scripts:CreateDropdown({
 	Name = "Teleports",
 	Options = l,
