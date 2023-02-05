@@ -10,7 +10,7 @@ tps = {
 	DungeonsSpawn = Vector3.new(-911, 50, -66391)
 }
 
-GamesTab:AddLabel("Button Bobux Simulator")
+Scripts:CreateLabel("Button Bobux Simulator")
 
 local l = {}
 
@@ -18,7 +18,7 @@ for key, value in pairs(tps) do
     table.insert(l, key)
 end
 
-GamesTab:AddDropdown({
+Scripts:CreateDropdown({
 	Name = "Teleports",
 	Options = l,
 	Callback = function(Value)
