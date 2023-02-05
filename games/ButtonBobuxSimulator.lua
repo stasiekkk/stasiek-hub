@@ -10,7 +10,7 @@ tps = {
 	DungeonsSpawn = Vector3.new(-911, 50, -66391)
 }
 
-Scripts:CreateLabel("Button Bobux Simulator")
+GamesTab:AddLabel("Button Bobux Simulator")
 
 local l = {}
 
@@ -20,7 +20,7 @@ end
 
 print(type(l))
 
-Scripts:CreateDropdown({
+GamesTab:AddDropdown({
 	Name = "Teleports",
 	Options = l,
 	Callback = function(Value)
